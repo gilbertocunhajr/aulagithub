@@ -6,10 +6,10 @@ public class App {
 
 		Scanner sc = new Scanner(System.in);
 
-		int linhas = sc.nextInt();
-		int colunas = sc.nextInt();
+		int linha = sc.nextInt();
+		int coluna = sc.nextInt();
 
-		int[][] mat = new int[linhas][colunas];
+		int[][] mat = new int[linha][coluna];
 
 		for (int i = 0; i < mat.length; i++) {
 			for (int j = 0; j < mat[i].length; j++) {
